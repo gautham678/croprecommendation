@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crop Prediction</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<h3 class="form-style">Input the following values from soil data</h3>
+<div class="form-style">
+<form action="/predict" method="POST">
+    Mositure<input type="number" name="moisture" value="moisture" /> <br/>
+    Nitrogen<input type="number" name="nitrogen" value="nitrogen" /><br/>
+    Phosphorus<input type="number" name="phosphorous" value="phosphorous" /><br/>
+    Potassium<input type="number" name="potassium" value="potassium" />
+    <input type="submit" value="Submit">
+</form>
+</div>
+<h2 class="form-style">Project Made by Archit Singh <a href="https://github.com/sherlockparadox">(GitHub)</a></h2>
+</body>
+</html>
